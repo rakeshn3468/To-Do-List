@@ -23,6 +23,7 @@ form {
   height: 40px;
   border: 1px solid black;
   outline: none;
+  padding-left:14px;
   font-size: 25px;
   vertical-align: middle;
 }
