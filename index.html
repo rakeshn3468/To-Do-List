@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <br>
+    <form >
+    <h4>Add the tasks that you are planning to do today :)</h4>
+    <p style="text-align:center;">Note:if you cleared the task you simply check the box.And If you completed all the task click clear all.</p>
+    <br>
+    <input id="ni" type="text" name="todo" value="" placeholder="Enter the Task" >
+    <br>
+    <div class="buttons">
+      <button  onclick="fun()" class="addbuttton"  type="button" name="button">ADD</button>
+      <button type="button" class="addbuttton" onclick="cl()" name="button">CLEAR</button>
+    </div>
+    </form>
+
+    <ul id="list">
+      <input type="checkbox" id="myCheckbox" style="margin-right:10px;">
+    </ul>
+    <script src="index.js"></script>
+  </body>
+</html>
