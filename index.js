@@ -30,6 +30,9 @@ function fun(){
   } else {
     alert("Please Enter the value, it cannot be empty!..")
   }
+  newitem.addEventListener("dblclick", function(){
+  this.remove();
+});
   ni.value = '';
 }
 
